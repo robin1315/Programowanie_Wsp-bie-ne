@@ -15,12 +15,12 @@ namespace PW_1_2
         static void Main(string[] args)
         {
             int numberOfThreads = 0;
-            Thread thread;
+            
             try
             {
                 while (true){
+                    Thread thread = new Thread(new ThreadStart(CreateGraph));
                     numberOfThreads++;
-                    thread = new Thread(new ThreadStart(CreateGraph));
                     thread.Start();
                     Console.WriteLine(numberOfThreads);
                 }
@@ -29,7 +29,6 @@ namespace PW_1_2
                 Console.WriteLine("Error!!");
                 Console.WriteLine("Liczba watków:" + (numberOfThreads - 1));
                 Console.ReadKey();
-                return;
             }
 
         }
