@@ -1,0 +1,6 @@
+C:\Users\Robin\Desktop\VIKI\PW\PW\bin\Debug\PW.exe.config
+C:\Users\Robin\Desktop\VIKI\PW\PW\obj\Debug\PW.csprojResolveAssemblyReference.cache
+C:\Users\Robin\Desktop\VIKI\PW\PW\bin\Debug\PW.exe
+C:\Users\Robin\Desktop\VIKI\PW\PW\bin\Debug\PW.pdb
+C:\Users\Robin\Desktop\VIKI\PW\PW\obj\Debug\PW.exe
+C:\Users\Robin\Desktop\VIKI\PW\PW\obj\Debug\PW.pdb
