@@ -1,1 +1,2 @@
 C:\Users\Robin\Desktop\VIKI\PW_1_2\PW_1_2\bin\Debug\PW_1_2.exe.config
+C:\Users\Robin\Source\Repos\Programowanie_Wspolbiezne\PW_1_2\PW_1_2\bin\Debug\PW_1_2.exe.config
