@@ -19,7 +19,7 @@ namespace PW_1_2
             try
             {
                 while (true){
-                    Thread thread = new Thread(new ThreadStart(CreateGraph));
+                    Thread thread = new Thread(new ThreadStart(bezrobotna));
                     numberOfThreads++;
                     thread.Start();
                     Console.WriteLine(numberOfThreads);
@@ -33,6 +33,9 @@ namespace PW_1_2
 
         }
 
+        private static void bezrobotna() {
+            while (true) ; 
+        }
         private static void CreateGraph(){
             graph = new int[wierzcholki, wierzcholki];
             Random ran = new Random();
